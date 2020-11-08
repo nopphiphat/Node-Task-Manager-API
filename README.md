@@ -18,7 +18,21 @@ After downloading or cloning the repo, execute the following steps:
 
 2) Run `npm run start` to run the Express server which defaults to localhost:3000. Alternatively, run `npm run dev` to enter development mode.
 
-3) Run `npm test` to run the testing of the functionalities. 
+3) Run `npm test` to run the testing of the functionalities. To recreate the test environments, create folder "config" in the "task-manager" folder (making it adjacent to "src" folder). Then create files: "test.env" and "dev.env"
+
+## "dev.env" should include:
+PORT=3000
+SENDGRID_API_KEY=<your sendgrid API key>
+MONGODB_URL=<mongodb://127.0.0.1:27017/<db_name_for_your_development>>
+JWT_SECRET=<anything you want>
+SENDGRID_EMAIL=<your sendgrid email>
+
+## "test.env" should include:
+PORT=3000
+SENDGRID_API_KEY=<your sendgrid API key>
+MONGODB_URL=<mongodb://127.0.0.1:27017/<db_name_for_your_test>>
+JWT_SECRET=<anything you want>
+SENDGRID_EMAIL=<your sendgrid email>
 
 ## Built With
 
