@@ -4,11 +4,11 @@ Andrew Mead - The Complete Node.js Developer Course
 
 ## Description
 
-Created a task-manager website using Node.js, Express, Mongoose, MongoDB Atlas, and [SendGrid](https://sendgrid.com/) - Email Delivery Service.
+Created a task-manager website using Node.js, Express, Mongoose, Postman, MongoDB Atlas, and [SendGrid](https://sendgrid.com/) - Email Delivery Service.
 
 ## Deployed
 
-The application is deployed on [Heroku](https://nopi-task-manager.herokuapp.com/)
+The application is deployed on Heroku, [https://nopi-task-manager.herokuapp.com/](https://nopi-task-manager.herokuapp.com/). User can install [Postman](https://www.postman.com/) and config it to my Heroku website to perform CRUD operations using GET, POST, PATCH, DELETE on the Mongodb Atlas Database.
 
 ## Installing
 
@@ -16,7 +16,9 @@ After downloading or cloning the repo, execute the following steps:
 
 1) Open the project folder at the root in your terminal and run `npm install` to download the necessary dependencies needed for this project.
 
-2) Run `npm run start` to run the Express server which defaults to localhost:3000. OR, alternatively, run `npm run dev` to enter development mode.
+2) Run `npm run start` to run the Express server which defaults to localhost:3000. Alternatively, run `npm run dev` to enter development mode.
+
+3) Run `npm test` to run the testing of the functionalities. 
 
 ## Built With
 
@@ -29,7 +31,10 @@ After downloading or cloning the repo, execute the following steps:
 - [multer](https://www.npmjs.com/package/multer) - Node.js Middleware
 - [sharp](https://www.npmjs.com/package/sharp) - Files and Images formatting (e.g. JPEG, JPG, PNG, PDF, DOC, DOCX, etc.)
 - [env-cmd](https://www.npmjs.com/package/env-cmd) - Config environment variables
+- [jest](https://www.npmjs.com/package/jest) - JavaScript testing
+- [supertest](https://www.npmjs.com/package/supertest) - High-level abstract testing 
 - [SendGrid](https://sendgrid.com/) - Email Delivery Service
+- [Postman](https://www.postman.com/) - Postman
 - [Mongodb Atlas](https://www.mongodb.com/cloud/atlas) - Mongodb Atlas (DaaS:Database-as-a-Service)
 - [Heroku](https://dashboard.heroku.com/apps) - Deployment platform
 
